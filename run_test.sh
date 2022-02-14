@@ -1,0 +1,25 @@
+#! /bin/bash
+source test_library.sh
+
+function test_all_cases() {
+test_convert_to_array
+test_matched_position
+test_wrong_position
+test_check_if_matched
+test_check_if_unmatched
+test_compare_matched_characters
+test_compare_unmatched_characters
+test_validate_users_word
+test_winning_condition
+test_game_continuation
+test_customize_color_matched
+test_customize_color_unmatched
+test_customize_color_wrong_position
+test_print_result
+test_main_wrong_guesses
+test_main_correct_guess
+}
+
+test_all_cases
+display_test_report
+display_failed_tests
