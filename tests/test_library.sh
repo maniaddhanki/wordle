@@ -1,5 +1,5 @@
 source test_report.sh
-source wordle_library.sh
+source library/wordle_library.sh
 
 function test_convert_to_array() {
   local string="radio"

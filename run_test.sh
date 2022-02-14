@@ -1,5 +1,5 @@
 #! /bin/bash
-source test_library.sh
+source tests/test_library.sh
 
 function test_all_cases() {
 test_convert_to_array
